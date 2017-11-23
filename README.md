@@ -152,7 +152,7 @@ Enter the Docker log in command from the last step:
 You should see a similar input when the login is successful.
 
 
-## 5.3 Tag container image
+## 5.3 Tag the container image
 The Container image that was built in the local development environment needs to be tagged with the ECR repository. For this example, we’ll use `:latest` if you are pushing many versions of an image, consider using a numerical tag structure.
 
 ```
@@ -161,7 +161,7 @@ docker tag awsecssample:latest 065770805525.dkr.ecr.ap-southeast-2.amazonaws.com
 ``` 
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic12.jpg)
 
-## 5.4 Push container image
+## 5.4 Push the container image
 Run the docker push command to push the newly created image to the ECR repository.
 
 ```
@@ -171,7 +171,7 @@ docker push 065770805525.dkr.ecr.ap-southeast-2.amazonaws.com/awsecssample:lates
 
  
 
-The container image is stored in a compressed manner in the ECR repository. The actual size of this container image is around 11GB in the local development environment. In the ECR repository it’s size is around 465 MB, which is clearly evident about the compression of images. 
+The container image is encrypted and compressed in the Amazon ECR repository. The actual size of this container image is around 11GB in the local development environment. In the ECR repository it’s size is around 465 MB, which is a lot of space savings! 
 
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic14.jpg)
 
