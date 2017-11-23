@@ -86,7 +86,7 @@ version: '2.1'
 
 The default docker-compose.yml will be leveraged for building the container image. 
 
-Right click on docker-compose project  Build.
+Right click on docker-compose project -> Build.
 
 A container image is built as per the Docker file definition. It can be verified by invoking ‘Docker Images’ command in terminal.
 
