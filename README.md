@@ -153,7 +153,7 @@ You should see a similar input when the login is successful.
 
 
 ## 5.3 Tag container image
-The Container image that was built in the local development environment needs to be tagged with the ECR repository.
+The Container image that was built in the local development environment needs to be tagged with the ECR repository. For this example, we’ll use `:latest` if you are pushing many versions of an image, consider using a numerical tag structure.
 
 ```
 docker tag awsecssample:latest 065770805525.dkr.ecr.ap-southeast-2.amazonaws.com/awsecssample:latest
