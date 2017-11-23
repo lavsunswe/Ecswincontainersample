@@ -10,10 +10,11 @@ The aim of this article is to provide guidance to migrate an ASP.NET MVC 4.6 or 
 The ASP.NET MVC 4.6 and older versions of ASP.net occupy a significant footprint in the enterprise web application space. As enterprises  move towards microservices for new or existing applications, containers are one of the stepping stones for migrating from monolithic to microservices architectures. Additionally, support for Windows Containers in Windows 10, Windows Server 2016, and Visual Studio Tooling support for Docker, simplifies the containerization of ASP.NET MVC apps.
 
 # 3.	Pre-requisites
-The development environment needs to have the following.
-- Visual Studio 2017 with latest updates
-- Visual Studio tools for Docker
-- Complete Docker set up for Windows
+Ensure your development environment has the following setup as per this [Microsoft article](https://docs.microsoft.com/en-us/aspnet/mvc/overview/deployment/docker-aspnetmvc):
+
+a) Visual Studio 2017 with latest updates
+b) Docker for windows – version stable 1.13.0 or 1.12 Beta 26 (or newer versions)
+c) Windows 10 Anniversary Update (or higher) or Windows Server 2016 (or higher)
 
 If the web application was developed in earlier version of Visual Studio, it needs to be opened in Visual Studio 2017 which migrates all the settings to IDE.
 
