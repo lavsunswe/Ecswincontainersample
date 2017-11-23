@@ -130,6 +130,7 @@ Amazon ECS can access container images stored in docker hub (private / public), 
 In this post, we’ll use Amazon ECR because it’s fast, secure, and low cost. The Amazon EC2 container registry is a fully-managed Docker container registry that makes it easy for developers to securely store, manage, and deploy Docker Container images. It is deeply integrated with Amazon ECS, simplifying development to production workflow.
 
 ## 5.1 Create an Amazon ECR repository
+
 Each container image should be stored in its own repository on Amazon ECR. Use the AWS console to create a new Amazon ECR repository for your image:
 
  
