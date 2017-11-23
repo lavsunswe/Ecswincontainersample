@@ -41,7 +41,7 @@ Right click on Project and Add Docker Support
  
 This adds a Docker file to the current project and a Docker Compose project to the Solution.
 
-The Docker file added by Visual Studio 2017 looks like below
+The Docker file added by Visual Studio 2017 should look like this:
 
 			
 ```
