@@ -52,8 +52,7 @@ COPY ${source:-obj/Docker/publish} .
 
 ```
 
-It pulls the ASPNET windows container image from the public Docker pub and pushes the binaries of the current project on to the containers. This is enough for running locally in the development environment. To run in AWS ECS and access it through Application Load Balancer (ALB), the port 80 needs to be explicity exposed on the container. The updated Docker file definition looks like below.
-
+This file pulls the ASPNET Windows container image from the public DockerHub repository and pushes the binaries of the current project onto containers. This is enough for running locally in the development environment. To be able to run on Amazon ECS and for users to access the web service through Application Load Balancer (ALB), port 80 needs to be explicity exposed on the container. Update the Dockerfile to look like this:
 ```
 FROM microsoft/aspnet
 ARG source
