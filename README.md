@@ -7,7 +7,7 @@
 The aim of this article is to provide guidance to migrate an ASP.NET MVC 4.6 or older application in to AWS ECS using containers. This will also cover the step-by-step instructions, cloud formation template and ECS task definition
 
 # 2.	Why ASP.NET MVC 4.6 and Windows Containers?
-The ASP.NET MVC 4.6 or older version occupy a significant foot print in the enterprise web application space. Nowadays enterprises are moving towards micro-services siting so many advantages, be it a green field or brown field applications.  Containers are one of the stepping stones for getting into micro-services architecture. The support for Windows Containers in Windows 10 and Windows Server 2016 & Visual Studio Tooling support for Docker simplify the containerization of ASP.NET MVC apps. We’ll leverage that to migrate ASP.NET MVC 4.6 or older apps to AWS ECS using Windows Containers.
+The ASP.NET MVC 4.6 and older versions of ASP.net occupy a significant footprint in the enterprise web application space. As enterprises  move towards microservices for new or existing applications, containers are one of the stepping stones for migrating from monolithic to microservices architectures. Additionally, support for Windows Containers in Windows 10, Windows Server 2016, and Visual Studio Tooling support for Docker, simplifies the containerization of ASP.NET MVC apps.
 
 # 3.	Pre-requisites
 The development environment needs to have the following.
