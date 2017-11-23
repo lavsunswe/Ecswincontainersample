@@ -188,7 +188,7 @@ The ECS Task definition, ECS Cluster definition and IAM roles are modified in th
  
 
 ## **6.2	ECS Task Definition**
-The task definition for running windows container image (ASP.NET MVC) looks like below.
+The task definition for running windows container image (ASP.NET MVC) should look like this.
 
 ```
 "taskdefinition": {
