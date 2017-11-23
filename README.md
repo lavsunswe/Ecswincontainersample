@@ -135,6 +135,7 @@ Each container image should be stored in its own repository on Amazon ECR. Use t
 
  
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic9.jpg)
+
 After you create the repository, the AWS console will show you pre-filled code to authenticate to the repository with Docker, tag the image, and push the image to Amazon ECR.
 
 ## 5.2		  Log in to ECR 
