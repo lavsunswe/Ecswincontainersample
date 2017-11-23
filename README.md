@@ -94,7 +94,7 @@ A container image is built as per the Docker file definition. It can be verified
 
 The step of building windows container image for ASP.NET 4.6 web application is complete.
 
-##4c.	Starting container that runs the image 
+## 4c.	Starting container that runs the image 
 The ‘docker run’ command is executed from the terminal to start the container that runs the image.
 
 
