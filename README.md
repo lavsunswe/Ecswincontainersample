@@ -27,7 +27,7 @@ When the application is run in the development environment, it renders the follo
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic2.jpg)
 
 # 4.	Containerization of ASP.NET MVC 4.6 application
-The steps mentioned below are followed for Containerization of ASP.NET MVC 4.6 application.
+These are the steps we will follow to containerize the ASP.NET MVC 4.6 application:
 - Creation of Docker file
 - Building a Docker image that will run ASP.NET MVC web app
 - Run image locally
