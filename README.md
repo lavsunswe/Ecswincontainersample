@@ -256,3 +256,10 @@ The ASP.NET MVC 4.6 application is rendered in the browser.
  ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic22.jpg)
 
 In this demo we walked through how you can use standard Windows developer tools, Docker, Amazon ECR, and Amazon ECS to deploy a legacy .NET web server to AWS using containers. These steps can be used as a template for containerizing and running other applciations written in legacy .net code.
+
+For more information on using Amazon ECS, please visit the official product page or documentation.
+
+If you found this article useful, please share. If you have questions, please use the comments below.
+
+-- Sundar, Arun, Vikrama
+
