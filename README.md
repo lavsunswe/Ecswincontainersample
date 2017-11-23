@@ -66,11 +66,11 @@ Right Click on the ASP.NET MVC Project  Build
 This completes compiling and building the ASP.NET MVC project.
 
 ## 4b.	Building a Docker image that will run ASP.NET MVC web app
-The Docker Compose project in the Solution will be leveraged to build a Docker image that will run the ASP.NET MVC app. The Docker compose project added by Visual Studio 2017 looks like below.
+The Docker Compose project in the Visual Studio Solution will be leveraged to build a Docker image that will run the ASP.NET MVC app. The Docker compose project added by Visual Studio 2017 should look like this.
 
  ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic4.jpg)
 
-The Docker compose.yml definition added by Visual Studio looks like below.
+The Docker compose.yml definition added by Visual Studio 2017 should look like this.
 version: '2.1'
 
 
