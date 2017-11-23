@@ -61,7 +61,7 @@ COPY ${source:-obj/Docker/publish} .
 EXPOSE 80
 
 ```
-Right Click on the ASP.NET MVC Project  Build
+Right Click on the ASP.NET MVC Project -> Build
 
 This completes compiling and building the ASP.NET MVC project.
 
