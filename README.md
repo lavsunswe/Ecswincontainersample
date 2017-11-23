@@ -179,8 +179,9 @@ The container image is encrypted and compressed in the Amazon ECR repository. Th
 
 The required permissions need to be provided to the container image so that ECS instances can start leveraging that.
 
-# 6.	Creation of ECS Cluster
-The creation of ECS Cluster is a key step in scheduling and orchestrating containers in AWS. At this point of time, there are two options for creating ECS Windows Cluster. The first one is to leverage the cloud formation template provided in this link http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html, which provisions ecs cluster and other related resources end-to-end. The second one is to manually create a cluster, set up container instances, ecs agent and other dependencies mentioned in this link http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_Windows_getting_started.html. The first option of leveraging Cloud formation template for ecs windows cluster is leveraged in this article.
+# 6. Instantiate the Amazon ECS Cluster
+Amazon ECS manages clusters of Amazon EC2 compute instances that it deploys containers on to it. Creating the cluster to run your containers is a key step in scheduling and orchestrating containers in AWS. There are two options for creating ECS Windows Cluster. The first one is to leverage the cloud formation template provided in this link http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-console-create-stack.html, which provisions ecs cluster and other related resources end-to-end. The second one is to manually create a cluster, set up container instances, ecs agent and other dependencies mentioned in this link http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_Windows_getting_started.html. The first option of leveraging Cloud formation template for ecs windows cluster is leveraged in this article.
+
 
 ## **6.1	Custom Cloud Formation template**
 The ECS Task definition, ECS Cluster definition and IAM roles are modified in the default cloud formation template mentioned in section 6 is modified to create a custom stack. The customized template is attached below.
