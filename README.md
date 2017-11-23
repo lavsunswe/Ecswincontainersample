@@ -121,7 +121,6 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" aspnetcontaine
 When the container IP is accessed, it renders the ASP.NET MVC 4.6 app running inside windows container.
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic8.jpg) 
 
-This confirms that the ASP.NET MVC app is running successfully inside containers in the development environment
 
 #  5.	Amazon EC2 Container Registry
 The ASP.NET MVC which is running inside Windows Container (completed in previous section) needs to be scheduled and orchestrated in the Amazon EC2 container service. The Amazon EC2 container service can access container images stored in docker hub (private / public) or your organization’s container repository or AmazonEC2 Container registry. The focus of this article is to push the windows container image to the Amazon EC2 container registry. The Amazon EC2 container registry is a fully-managed Docker container registry that makes it easy for developers to store, manage and deploy Container images. It is deeply integrated with Amazon ECS, simplifying development to production workflow. 
