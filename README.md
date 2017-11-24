@@ -167,13 +167,13 @@ Run the docker push command to push the newly created image to the ECR repositor
 ```
 docker push awsaccountnumber.dkr.ecr.awsregion.amazonaws.com/awsecssample:latest
 ```
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic13.jpg)
+![](/screenshots/pic13.jpg)
 
  
 
 The container image is encrypted and compressed in the Amazon ECR repository. The actual size of this container image is around 11GB in the local development environment. In the ECR repository it’s size is around 465 MB, which is a lot of space savings! 
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic14.jpg)
+![](/screenshots/pic14.jpg)
 
 
 
