@@ -144,10 +144,10 @@ The docker log in command needs to be retrieved to authenticate the Docker clien
 
 aws ecr get-login --no-include-email --region ap-southeast-2
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic10.jpg)
+![](/screenshots/pic10.jpg)
 
 Enter the Docker log in command from the last step:
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic11.jpg) 
+![](/screenshots/pic11.jpg) 
 
 You should see a similar input when the login is successful.
 
