@@ -184,7 +184,7 @@ Amazon ECS manages clusters of Amazon EC2 compute instances that it deploys cont
 
 
 ## **6.1	Custom Cloud Formation template**
-The ECS Task definition, ECS Cluster definition and IAM roles are modified in the default cloud formation template mentioned in section 6 is modified to create a custom stack. The customized template is attached below.![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic15.jpg)
+The ECS Task definition, ECS Cluster definition and IAM roles are modified in the default cloud formation template mentioned in section 6 is modified to create a custom stack. The customized template is attached below.![](/screenshots/pic15.jpg)
  
 
 ## **6.2	ECS Task Definition**
