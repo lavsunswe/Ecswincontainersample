@@ -24,7 +24,7 @@ The following is the sample ASP.NET MVC 4.6 application that we’ll be migratin
 
 When the application is run in the development environment, it renders the following output.
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic2.jpg)
+![](/screenshots/pic2.jpg)
 
 # 4.	Containerization of ASP.NET MVC 4.6 application
 These are the steps we will follow to containerize the ASP.NET MVC 4.6 application:
