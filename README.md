@@ -134,7 +134,7 @@ In this post, we’ll use Amazon ECR because it’s fast, secure, and low cost. 
 Each container image should be stored in its own repository on Amazon ECR. Use the AWS console to create a new Amazon ECR repository for your image:
 
  
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic9.jpg)
+![](/screenshots/pic9.jpg)
 
 After you create the repository, the AWS console will show you pre-filled code to authenticate to the repository with Docker, tag the image, and push the image to Amazon ECR.
 
