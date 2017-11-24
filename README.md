@@ -116,10 +116,10 @@ The IP address of the container needs to be figured out by running this command.
 docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" aspnetcontainer
 
 ``` 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic7.jpg)
+![](/screenshots/pic7.jpg)
 
 When the container IP is accessed, it renders the ASP.NET MVC 4.6 app running inside windows container.
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic8.jpg) 
+![](/pic8.jpg) 
 
 
 #  5.	Amazon EC2 Container Registry
