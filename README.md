@@ -119,7 +119,7 @@ docker inspect -f "{{ .NetworkSettings.Networks.nat.IPAddress }}" aspnetcontaine
 ![](/screenshots/pic7.jpg)
 
 When the container IP is accessed, it renders the ASP.NET MVC 4.6 app running inside windows container.
-![](/pic8.jpg) 
+![](/screenshots/pic8.jpg) 
 
 
 #  5.	Amazon EC2 Container Registry
