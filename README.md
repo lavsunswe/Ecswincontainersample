@@ -159,7 +159,7 @@ The Container image that was built in the local development environment needs to
 docker tag awsecssample:latest awsaccountnumber.dkr.ecr.awsregion.amazonaws.com/containerimagename:latest
 
 ``` 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic12.jpg)
+![](/screenshots/pic12.jpg)
 
 ## 5.4 Push the container image
 Run the docker push command to push the newly created image to the ECR repository.
