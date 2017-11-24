@@ -37,7 +37,7 @@ These are the steps we will follow to containerize the ASP.NET MVC 4.6 applicati
 The Visual Studio 2017 support for Docker Tooling is leveraged to create Docker file.
 Right click on Project and Add Docker Support
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic3.jpg)
+![](/screenshots/pic3.jpg)
  
 This adds a Docker file to the current project and a Docker Compose project to the Solution.
 
