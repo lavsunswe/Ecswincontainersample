@@ -20,7 +20,7 @@ If the web application was developed in earlier version of Visual Studio, it nee
 
 
 The following is the sample ASP.NET MVC 4.6 application that we’ll be migrating.
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic1.jpg)
+![](/Ecswincontainersample/blob/master/screenshots/pic1.jpg)
 
 When the application is run in the development environment, it renders the following output.
 
