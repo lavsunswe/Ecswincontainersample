@@ -102,7 +102,7 @@ The ‘docker run’ command is executed from the terminal to start the containe
 docker run -d --name aspnetcontainer awsecssample
 ```
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic6.jpg)
+![](/screenshots/pic6.jpg)
  
 ## 4d.	Test in browser
 
