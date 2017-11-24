@@ -165,7 +165,7 @@ docker tag awsecssample:latest awsaccountnumber.dkr.ecr.awsregion.amazonaws.com/
 Run the docker push command to push the newly created image to the ECR repository.
 
 ```
-docker push 065770805525.dkr.ecr.ap-southeast-2.amazonaws.com/awsecssample:latest
+docker push awsaccountnumber.dkr.ecr.awsregion.amazonaws.com/awsecssample:latest
 ```
 ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic13.jpg)
 
