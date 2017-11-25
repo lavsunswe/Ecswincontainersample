@@ -225,20 +225,20 @@ The task definition for running windows container image (ASP.NET MVC) should loo
 
 The custom cloud formation template created in section 6.1 is validated in the cloud formation designer. The stack creation is initiated by referring to the custom template stored in S3.
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic16.jpg)
+![](/screenshots/pic16.jpg)
 
 The desired capacity, instance type, key name, max size, subnetid and vpc id are provided. 
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic17.jpg)
+![](/screenshots/pic17.jpg)
 
 The IAM role for executing cloud formation stack is left with default. Now the stack creation is initiated.
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic18.jpg)
+![](/screenshots/pic18.jpg)
 
 
 The windows container images are generally larger in size. In our case it is around 11 GB. So it takes few minutes to create and configure the entire cluster. The Cloud Formation stack creation is successful. 
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic19.jpg)
+![](/screenshots/pic19.jpg)
 
 It creates all the resources mentioned in the section 6.1.
 
