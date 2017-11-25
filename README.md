@@ -245,15 +245,15 @@ It creates all the resources mentioned in the section 6.1.
 ## **6.4 Verification**
 Once the windows container is up and running it can be verified  in the console.
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic20.jpg)
+![](/screenshots/pic20.jpg)
 
 Hit the application load balancer url.
 
-![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic21.jpg)
+![](/screenshots/pic21.jpg)
 
 The ASP.NET MVC 4.6 application is rendered in the browser.
  
- ![](https://github.com/sundarnarasiman/Ecswincontainersample/blob/master/screenshots/pic22.jpg)
+ ![](/screenshots/pic22.jpg)
 
 In this demo we walked through how you can use standard Windows developer tools, Docker, Amazon ECR, and Amazon ECS to deploy a legacy .NET web server to AWS using containers. These steps can be used as a template for containerizing and running other applciations written in legacy .net code.
 
