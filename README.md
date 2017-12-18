@@ -261,5 +261,5 @@ For more information on using Amazon ECS, please visit the official product page
 
 If you found this article useful, please share. If you have questions, please use the comments below.
 
--- Sundar, Arun, Vikrama
+-- Sundar Narasiman,Thomas Fuller and Arun Kannan
 
