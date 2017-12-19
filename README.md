@@ -13,7 +13,9 @@ The ASP.NET MVC 4.6 and older versions of ASP.net occupy a significant footprint
 Ensure your development environment has the following setup as per this [Microsoft article](https://docs.microsoft.com/en-us/aspnet/mvc/overview/deployment/docker-aspnetmvc):
 
 a) Visual Studio 2017 with latest updates
+
 b) Docker for windows – version stable 1.13.0 or 1.12 Beta 26 (or newer versions)
+
 c) Windows 10 Anniversary Update (or higher) or Windows Server 2016 (or higher)
 
 If the web application was developed in earlier version of Visual Studio, it needs to be opened in Visual Studio 2017 which migrates all the settings to IDE.
